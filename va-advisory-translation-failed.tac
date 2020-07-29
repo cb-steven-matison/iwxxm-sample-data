@@ -6,4 +6,3 @@ VAAC:                       TOKYO
 VOLCANO:                    KARYMSKY 1000-13
 PSN:                        N5403 E15927
 INVALID INVALID INVALID
-

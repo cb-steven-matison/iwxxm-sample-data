@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<iwxxm:SPECI xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:iwxxm="http://icao.int/iwxxm/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://icao.int/iwxxm/3.0 http://schemas.wmo.int/iwxxm/3.0/iwxxm.xsd" reportStatus="NORMAL" automatedStation="true" permissibleUsage="OPERATIONAL" translationCentreName="NCEP Central Operations" translationCentreDesignator="KWNO" translationTime="2020-05-26T12:26:41Z" translatedBulletinReceptionTime="2020-05-26T12:26:41Z" translatedBulletinID="SPXX99XXXX260000" gml:id="uuid.8bded296-6f1c-4fb8-9f76-4c55bf4ee855">
+  <iwxxm:issueTime>
+    <gml:TimeInstant gml:id="uuid.f21fd9bd-758a-4365-b6cc-0c50c683fcff">
+      <gml:timePosition>2020-04-28T23:50:00Z</gml:timePosition>
+    </gml:TimeInstant>
+  </iwxxm:issueTime>
+  <iwxxm:aerodrome>
+    <aixm:AirportHeliport gml:id="uuid.5055f883-1a7c-4e67-8ab8-70502b67deb5">
+      <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice gml:id="uuid.d456e267-810e-4cc6-a8dd-13843b5b6e1f">
+          <gml:validTime/>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:designator>ENFB</aixm:designator>
+          <aixm:name>STATFJORD B OILP</aixm:name>
+          <aixm:locationIndicatorICAO>ENFB</aixm:locationIndicatorICAO>
+          <aixm:ARP>
+            <aixm:ElevatedPoint srsDimension="2" srsName="http://www.opengis.net/def/crs/EPSG/0/4326" axisLabels="Lat Long" gml:id="uuid.d7037b9f-f998-4f44-9a6b-64f32a47b97a">
+              <gml:pos>61.2 1.83</gml:pos>
+              <aixm:elevation uom="M">10</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+            </aixm:ElevatedPoint>
+          </aixm:ARP>
+        </aixm:AirportHeliportTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportHeliport>
+  </iwxxm:aerodrome>
+  <iwxxm:observationTime xlink:href="#uuid.f21fd9bd-758a-4365-b6cc-0c50c683fcff"/>
+  <iwxxm:observation>
+    <iwxxm:MeteorologicalAerodromeObservation gml:id="uuid.b72d8fc9-d45d-4587-a842-498973b72df3" cloudAndVisibilityOK="false">
+      <iwxxm:airTemperature uom="Cel">4</iwxxm:airTemperature>
+      <iwxxm:dewpointTemperature uom="Cel">-8</iwxxm:dewpointTemperature>
+      <iwxxm:qnh uom="hPa">1009</iwxxm:qnh>
+      <iwxxm:surfaceWind>
+        <iwxxm:AerodromeSurfaceWind variableWindDirection="false">
+          <iwxxm:meanWindDirection uom="deg">120</iwxxm:meanWindDirection>
+          <iwxxm:meanWindSpeed uom="[kn_i]">14</iwxxm:meanWindSpeed>
+        </iwxxm:AerodromeSurfaceWind>
+      </iwxxm:surfaceWind>
+      <iwxxm:visibility nilReason="http://codes.wmo.int/common/nil/notObservable" xsi:nil="true"/>
+      <iwxxm:cloud>
+        <iwxxm:AerodromeCloud>
+          <iwxxm:layer>
+            <iwxxm:CloudLayer>
+              <iwxxm:amount xlink:href="http://codes.wmo.int/49-2/CloudAmountReportedAtAerodrome/FEW"/>
+              <iwxxm:base uom="[ft_i]">5200</iwxxm:base>
+              <iwxxm:cloudType nilReason="http://codes.wmo.int/common/nil/notObservable" xsi:nil="true"/>
+            </iwxxm:CloudLayer>
+          </iwxxm:layer>
+        </iwxxm:AerodromeCloud>
+      </iwxxm:cloud>
+      <iwxxm:seaCondition>
+        <iwxxm:AerodromeSeaCondition>
+          <iwxxm:seaSurfaceTemperature uom="N/A" nilReason="http://codes.wmo.int/common/nil/notObservable" xsi:nil="true"/>
+          <iwxxm:seaState xlink:href="http://codes.wmo.int/bufr4/codeflag/0-22-061/5"/>
+        </iwxxm:AerodromeSeaCondition>
+      </iwxxm:seaCondition>
+    </iwxxm:MeteorologicalAerodromeObservation>
+  </iwxxm:observation>
+</iwxxm:SPECI>

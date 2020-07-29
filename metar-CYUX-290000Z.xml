@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<iwxxm:METAR xmlns:aixm="http://www.aixm.aero/schema/5.1.1" xmlns:iwxxm="http://icao.int/iwxxm/3.0" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://icao.int/iwxxm/3.0 http://schemas.wmo.int/iwxxm/3.0/iwxxm.xsd" reportStatus="NORMAL" automatedStation="false" permissibleUsage="OPERATIONAL" translationCentreName="NCEP Central Operations" translationCentreDesignator="KWNO" translationTime="2020-05-26T12:26:40Z" translatedBulletinReceptionTime="2020-05-26T12:26:40Z" translatedBulletinID="SAXX99XXXX260000" gml:id="uuid.121eb7a6-fee5-417d-878c-f214e7aed918">
+  <iwxxm:issueTime>
+    <gml:TimeInstant gml:id="uuid.1c079d32-e9f8-43a5-800b-039d5eff6c34">
+      <gml:timePosition>2020-04-29T00:00:00Z</gml:timePosition>
+    </gml:TimeInstant>
+  </iwxxm:issueTime>
+  <iwxxm:aerodrome>
+    <aixm:AirportHeliport gml:id="uuid.7cd57e56-2860-4021-b013-11f94574fbad">
+      <aixm:timeSlice>
+        <aixm:AirportHeliportTimeSlice gml:id="uuid.65a75a29-8b12-429b-b026-a4e5b035dd01">
+          <gml:validTime/>
+          <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+          <aixm:designator>CYUX</aixm:designator>
+          <aixm:name>HALL BEACH AIRPO</aixm:name>
+          <aixm:locationIndicatorICAO>CYUX</aixm:locationIndicatorICAO>
+          <aixm:ARP>
+            <aixm:ElevatedPoint srsDimension="2" srsName="http://www.opengis.net/def/crs/EPSG/0/4326" axisLabels="Lat Long" gml:id="uuid.8974cbb8-a1b3-40c1-baba-0cd46278cc53">
+              <gml:pos>68.77 -81.25</gml:pos>
+              <aixm:elevation uom="M">8</aixm:elevation>
+              <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+            </aixm:ElevatedPoint>
+          </aixm:ARP>
+        </aixm:AirportHeliportTimeSlice>
+      </aixm:timeSlice>
+    </aixm:AirportHeliport>
+  </iwxxm:aerodrome>
+  <iwxxm:observationTime xlink:href="#uuid.1c079d32-e9f8-43a5-800b-039d5eff6c34"/>
+  <iwxxm:observation>
+    <iwxxm:MeteorologicalAerodromeObservation gml:id="uuid.f2381883-2232-48df-b9c6-9edd2e24598f" cloudAndVisibilityOK="false">
+      <iwxxm:airTemperature uom="Cel">-13</iwxxm:airTemperature>
+      <iwxxm:dewpointTemperature uom="Cel">-15</iwxxm:dewpointTemperature>
+      <iwxxm:qnh uom="hPa">1000.3</iwxxm:qnh>
+      <iwxxm:surfaceWind>
+        <iwxxm:AerodromeSurfaceWind variableWindDirection="false">
+          <iwxxm:meanWindDirection uom="deg">80</iwxxm:meanWindDirection>
+          <iwxxm:meanWindSpeed uom="[kn_i]">27</iwxxm:meanWindSpeed>
+          <iwxxm:windGustSpeed uom="[kn_i]">33</iwxxm:windGustSpeed>
+        </iwxxm:AerodromeSurfaceWind>
+      </iwxxm:surfaceWind>
+      <iwxxm:visibility>
+        <iwxxm:AerodromeHorizontalVisibility>
+          <iwxxm:prevailingVisibility uom="m">200</iwxxm:prevailingVisibility>
+        </iwxxm:AerodromeHorizontalVisibility>
+      </iwxxm:visibility>
+      <iwxxm:rvr nilReason="http://codes.wmo.int/common/nil/missing" xsi:nil="true"/>
+      <iwxxm:presentWeather xlink:href="http://codes.wmo.int/306/4678/-SN"/>
+      <iwxxm:presentWeather xlink:href="http://codes.wmo.int/306/4678/UP" xlink:title="Unidentified precipitation: +BLSN"/>
+      <iwxxm:cloud>
+        <iwxxm:AerodromeCloud>
+          <iwxxm:verticalVisibility uom="[ft_i]">100</iwxxm:verticalVisibility>
+        </iwxxm:AerodromeCloud>
+      </iwxxm:cloud>
+    </iwxxm:MeteorologicalAerodromeObservation>
+  </iwxxm:observation>
+</iwxxm:METAR>
